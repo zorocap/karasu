@@ -9,6 +9,7 @@ from starlette.routing import Mount
 from starlette.staticfiles import StaticFiles
 from starlette.middleware.cors import CORSMiddleware
 import json
+import uvicorn
 
 templates=Jinja2Templates(directory="templates")
 
@@ -183,3 +184,6 @@ app.add_middleware(
     allow_methods=["GET", "POST", "OPTIONS"],
     allow_headers=["*"],
 )
+
+if __name__ == "__main__":
+    uvicorn.run(app, host='0.0.0.0', port=8000)
