@@ -1,0 +1,218 @@
+<html lang="en">
+
+<head>
+	<title>{% block title %}{% endblock title %} YugenAnime</title>
+	<!-- Primary Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#101112">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	<meta name="keywords" content="anime to watch, watch anime, english anime, anime online, free anime online, online anime, anime streaming, stream anime online, subbed anime, english dubbed anime, no ads streaming, YugenAnime, YugenAnime">
+	<meta name="title" content="Trending - YugenAnime">
+	<meta name="description" content="Discover new and trending series and episodes this week.">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://yugenanime.tv/trending/">
+	<meta property="og:site_name" content="YugenAnime">
+	<meta property="og:title" content="Trending - YugenAnime">
+	<meta property="og:description" content="Discover new and trending series and episodes this week.">
+	<meta property="og:image" content="https://yugenanime.tv/static/img/preview.png">
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image">
+	<meta property="twitter:url" content="https://yugenanime.tv/trending/">
+	<meta property="twitter:title" content="Trending - YugenAnime">
+	<meta property="twitter:description" content="Discover new and trending series and episodes this week.">
+	<meta property="twitter:image" content="https://yugenanime.tv/static/img/preview.png">
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&amp;display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="https://yugenanime.tv/static/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="https://yugenanime.tv/static/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="https://yugenanime.tv/static/img/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<!-- Scripts -->
+	<!-- <script data-cfasync="false" async="" type="text/javascript" src="//xd.awashemeers.com/rvXs753db8V/OqvgX"></script> -->
+</head>
+
+<body>
+	<noscript>Sorry, YugenAnime requires Javascript.
+		<br>Please enable javascript or <a href="http://outdatedbrowser.com" class="link">upgrade to a modern web browser</a></noscript>
+	<header>
+		<div class="app-loader">
+			<div class="progress"></div>
+		</div>
+		<div class="header--container">
+			<div id="start" class="header--start">
+				<div class="header--burger">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<a href="/" class="header--logo"><img src="https://yugenanime.tv/static/img/logo__light.png" alt="YugenAnime"></a>
+			</div>
+			<div id="center" class="header--center">
+				<div class="search--container">
+					<form class="search" action="/discover/" method="GET">
+						<button type="button" name="search-back" class="main-input-back"></button>
+						<input id="main-search" type="text" placeholder="Search" name="q" autocomplete="off" minlength="1" class="main-input-box" required="">
+						<button type="submit" class="main-input-submit">
+							<svg style="width:22px;height:22px" viewBox="0 0 24 24">
+								<path fill="currentColor" d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z"></path>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+			<div id="end" class="header--end">
+				<div class="header--icons">
+					<button type="button" name="search" aria-label="Search" class="header--button search"></button>
+				</div>
+				<div class="header--icons">
+					<a href="https://discord.gg/MQqwQREyCz" target="__blank" class="header--button-svg" aria-label="Visit Our Discord Server">
+						<svg style="width:24px;height:24px" fill="currentColor" viewBox="0 0 16 16">
+							<path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
+						</svg>
+					</a>
+				</div><a href="/login/" class="btn btn-smallest btn-outline-primary">Sign in</a></div>
+		</div>
+	</header>
+	<aside class="navigation navigation-compact">
+		<a href="/" class="nav-item">
+			<svg viewBox="0 0 24 24">
+				<path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z"></path>
+			</svg>Home</a>
+		<a href="/trending/" class="nav-item">
+			<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M6,16.5L3,19.44V11H6M11,14.66L9.43,13.32L8,14.64V7H11M16,13L13,16V3H16M18.81,12.81L17,11H22V16L20.21,14.21L13,21.36L9.53,18.34L5.75,22H3L9.47,15.66L13,18.64"></path>
+			</svg>Trending</a>
+		<div class="nav-item nav-item-more" title="View More">
+			<svg style="width:24px;height:24px;margin:0;" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M13,7H11V11H7V13H11V17H13V13H17V11H13V7Z"></path>
+			</svg>
+		</div>
+		<a href="/latest/" class="nav-item">
+			<svg viewBox="0 0 24 24">
+				<path fill="currentColor" d="M4 7V19H19V21H4C2 21 2 19 2 19V7H4M21.3 3H7.7C6.76 3 6 3.7 6 4.55V15.45C6 16.31 6.76 17 7.7 17H21.3C22.24 17 23 16.31 23 15.45V4.55C23 3.7 22.24 3 21.3 3M8 5H13V11H8V5M21 15H8V13H21V15M21 11H15V9H21V11M21 7H15V5H21V7Z"></path>
+			</svg>Recents</a>
+		<div class="nav--divider"></div>
+		<a href="/discover/" class="nav-item">
+			<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M15.5,12C18,12 20,14 20,16.5C20,17.38 19.75,18.2 19.31,18.9L22.39,22L21,23.39L17.88,20.32C17.19,20.75 16.37,21 15.5,21C13,21 11,19 11,16.5C11,14 13,12 15.5,12M15.5,14A2.5,2.5 0 0,0 13,16.5A2.5,2.5 0 0,0 15.5,19A2.5,2.5 0 0,0 18,16.5A2.5,2.5 0 0,0 15.5,14M19.5,2A0.5,0.5 0 0,1 20,2.5V11.81C19.42,11.26 18.75,10.81 18,10.5V4.7L15,5.86V10C14.3,10.07 13.62,10.24 13,10.5V5.87L9,4.47V16.13H9V16.5C9,17.14 9.09,17.76 9.26,18.34L8,17.9L2.66,19.97L2.5,20A0.5,0.5 0 0,1 2,19.5V4.38C2,4.15 2.15,3.97 2.36,3.9L8,2L14,4.1L19.34,2.03L19.5,2M4,5.46V17.31L7,16.15V4.45L4,5.46Z"></path>
+			</svg>Discover</a>
+		<a href="/history/" class="nav-item">
+			<svg viewBox="0 0 24 24">
+				<path fill="currentColor" d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3"></path>
+			</svg>History</a>
+		<button type="button" class="nav-item schedule-toggle">
+			<svg viewBox="0 0 24 24">
+				<path fill="currentColor" d="M15,13H16.5V15.82L18.94,17.23L18.19,18.53L15,16.69V13M19,8H5V19H9.67C9.24,18.09 9,17.07 9,16A7,7 0 0,1 16,9C17.07,9 18.09,9.24 19,9.67V8M5,21C3.89,21 3,20.1 3,19V5C3,3.89 3.89,3 5,3H6V1H8V3H16V1H18V3H19A2,2 0 0,1 21,5V11.1C22.24,12.36 23,14.09 23,16A7,7 0 0,1 16,23C14.09,23 12.36,22.24 11.1,21H5M16,11.15A4.85,4.85 0 0,0 11.15,16C11.15,18.68 13.32,20.85 16,20.85A4.85,4.85 0 0,0 20.85,16C20.85,13.32 18.68,11.15 16,11.15Z"></path>
+			</svg>Schedule</button>
+		<div class="watchlist--container">
+			<div class="nav--divider"></div>
+			<div class="watchlist--header">Watching</div>
+			<p class="watchlist--header">Sign in for the best YugenAnime experience.</p>
+		</div>
+	</aside>
+    {% block content %}{% endblock %}
+	<aside class="schedule-panel">
+		<div class="schedule-header">
+			<div>
+				<div class="schedule-datetime">
+					<time class="clock">22:25:37</time>
+					<div class="offset">GMT+5.5</div>
+				</div>
+				<p>Release time is estimated</p>
+			</div>
+			<button type="button" class="schedule-toggle schedule-toggleback">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+					<title>Close</title>
+					<path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+				</svg>
+			</button>
+		</div>
+		<div class="schedule-group">
+			<h2>Sat</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/2909/bonobono-2016/" data-id="2909" style="opacity: 0.5;"><span data-id="2909" class="schedule-time">01:52</span><span class="schedule-title">Bonobono (TV 2016)</span></a></li>
+				<li><a class="schedule-item" href="/anime/4112/crayon-shin-chan/" data-id="4112" style="opacity: 0.5;"><span data-id="4112" class="schedule-time">13:00</span><span class="schedule-title">Crayon Shin-chan</span></a></li>
+				<li><a class="schedule-item" href="/anime/18468/megumi-no-daigo-kyuukoku-no-orange/" data-id="18468" style="opacity: 0.5;"><span data-id="18468" class="schedule-time">14:00</span><span class="schedule-title">Megumi no Daigo: Kyuukoku no Orange</span></a></li>
+				<li><a class="schedule-item" href="/anime/940/detective-conan/" data-id="940" style="opacity: 0.5;"><span data-id="940" class="schedule-time">14:30</span><span class="schedule-title">Meitantei Conan</span></a></li>
+				<li><a class="schedule-item" href="/anime/18555/ochibi-san/" data-id="18555" style="opacity: 0.5;"><span data-id="18555" class="schedule-time">20:55</span><span class="schedule-title">Ochibi-san</span></a></li>
+				<li><a class="schedule-item" href="/anime/18554/kusuriya-no-hitorigoto/" data-id="18554" style="opacity: 0.5;"><span data-id="18554" class="schedule-time">21:25</span><span class="schedule-title">Kusuriya no Hitorigoto</span></a></li>
+			</ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Sun</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/11853/yugioh-go-rush/" data-id="11853"><span data-id="11853" class="schedule-time">04:00</span><span class="schedule-title">Yu☆Gi☆Oh! Go Rush!!</span></a></li>
+				<li><a class="schedule-item" href="/anime/16300/hirogaru-sky-precure/" data-id="16300"><span data-id="16300" class="schedule-time">05:00</span><span class="schedule-title">Hirogaru Sky! Precure</span></a></li>
+				<li><a class="schedule-item" href="/anime/18004/tousouchuu-great-mission/" data-id="18004"><span data-id="18004" class="schedule-time">05:30</span><span class="schedule-title">Tousouchuu: Great Mission</span></a></li>
+				<li><a class="schedule-item" href="/anime/798/one-piece/" data-id="798"><span data-id="798" class="schedule-time">06:00</span><span class="schedule-title">One Piece</span></a></li>
+				<li><a class="schedule-item" href="/anime/15688/doupo-cangqiong-nian-fan/" data-id="15688"><span data-id="15688" class="schedule-time">07:30</span><span class="schedule-title">Doupo Cangqiong: Nian Fan</span></a></li>
+				<li><a class="schedule-item" href="/anime/18701/xian-wang-de-richang-shenghuo-4/" data-id="18701"><span data-id="18701" class="schedule-time">08:30</span><span class="schedule-title">Xian Wang de Richang Shenghuo 4</span></a></li>
+				<li><a class="schedule-item" href="/anime/18536/nanatsu-no-taizai-mokushiroku-no-yonkishi/" data-id="18536"><span data-id="18536" class="schedule-time">13:00</span><span class="schedule-title">Nanatsu no Taizai: Mokushiroku no Yonkishi</span></a></li>
+				<li><a class="schedule-item" href="/anime/18473/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-to-su/" data-id="18473"><span data-id="18473" class="schedule-time">13:30</span><span class="schedule-title">Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su</span></a></li>
+				<li><a class="schedule-item" href="/anime/18590/dog-signal/" data-id="18590"><span data-id="18590" class="schedule-time">13:30</span><span class="schedule-title">Dog Signal</span></a></li>
+				<li><a class="schedule-item" href="/anime/18506/captain-tsubasa-season-2-junior-youth-hen/" data-id="18506"><span data-id="18506" class="schedule-time">14:00</span><span class="schedule-title">Captain Tsubasa Season 2: Junior Youth-hen</span></a></li>
+				<li><a class="schedule-item" href="/anime/11504/chibi-maruko-chan-1995/" data-id="11504"><span data-id="11504" class="schedule-time">14:30</span><span class="schedule-title">Chibi Maruko-chan (1995)</span></a></li>
+				<li><a class="schedule-item" href="/anime/18739/isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu/" data-id="18739"><span data-id="18739" class="schedule-time">18:30</span><span class="schedule-title">Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.</span></a></li>
+			</ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Mon</h2>
+			<ul></ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Tue</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/18341/odekake-kozame/" data-id="18341"><span data-id="18341" class="schedule-time">16:30</span><span class="schedule-title">Odekake Kozame</span></a></li>
+			</ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Wed</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/18741/jaku-chara-tomozaki-kun-2nd-stage/" data-id="18741"><span data-id="18741" class="schedule-time">17:30</span><span class="schedule-title">Jaku-Chara Tomozaki-kun 2nd Stage</span></a></li>
+				<li><a class="schedule-item" href="/anime/18742/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3rd-season/" data-id="18742"><span data-id="18742" class="schedule-time">19:00</span><span class="schedule-title">Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season</span></a></li>
+				<li><a class="schedule-item" href="/anime/18743/ishura/" data-id="18743"><span data-id="18743" class="schedule-time">19:30</span><span class="schedule-title">Ishura</span></a></li>
+				<li><a class="schedule-item" href="/anime/18744/mahou-shoujo-ni-akogarete/" data-id="18744"><span data-id="18744" class="schedule-time">20:00</span><span class="schedule-title">Mahou Shoujo ni Akogarete</span></a></li>
+			</ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Thu</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/18746/dungeon-meshi/" data-id="18746"><span data-id="18746" class="schedule-time">19:00</span><span class="schedule-title">Dungeon Meshi</span></a></li>
+				<li><a class="schedule-item" href="/anime/18747/mato-seihei-no-slave/" data-id="18747"><span data-id="18747" class="schedule-time">19:30</span><span class="schedule-title">Mato Seihei no Slave</span></a></li>
+				<li><a class="schedule-item" href="/anime/18748/sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga/" data-id="18748"><span data-id="18748" class="schedule-time">21:00</span><span class="schedule-title">Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.</span></a></li>
+			</ul>
+		</div>
+		<div class="schedule-group">
+			<h2>Fri</h2>
+			<ul>
+				<li><a class="schedule-item" href="/anime/18516/beyblade-x/" data-id="18516"><span data-id="18516" class="schedule-time">14:55</span><span class="schedule-title">Beyblade X</span></a></li>
+				<li><a class="schedule-item" href="/anime/18723/xiaoke-de-huatu-xie-hua/" data-id="18723"><span data-id="18723" class="schedule-time">16:30</span><span class="schedule-title">Xiaoke de Huatu Xie Hua</span></a></li>
+				<li><a class="schedule-item" href="/anime/18723/xiaoke-de-huatu-xie-hua/" data-id="18723"><span data-id="18723" class="schedule-time">16:30</span><span class="schedule-title">Xiaoke de Huatu Xie Hua</span></a></li>
+				<li><a class="schedule-item" href="/anime/18341/odekake-kozame/" data-id="18341"><span data-id="18341" class="schedule-time">16:30</span><span class="schedule-title">Odekake Kozame</span></a></li>
+				<li><a class="schedule-item" href="/anime/18750/sasaki-to-pii-chan/" data-id="18750"><span data-id="18750" class="schedule-time">17:30</span><span class="schedule-title">Sasaki to Pii-chan</span></a></li>
+				<li><a class="schedule-item" href="/anime/18751/nozomanu-fushi-no-boukensha/" data-id="18751"><span data-id="18751" class="schedule-time">18:30</span><span class="schedule-title">Nozomanu Fushi no Boukensha</span></a></li>
+				<li><a class="schedule-item" href="/anime/18464/sousou-no-frieren/" data-id="18464"><span data-id="18464" class="schedule-time">20:10</span><span class="schedule-title">Sousou no Frieren</span></a></li>
+			</ul>
+		</div>
+	</aside>
+	<footer>
+		<input type="hidden" name="5fb5254b2cfc4bdd9880f5d28b8401c7+nxXK1Y8yd3urhLTEyuzI/111825774864416/7CvXqKBPcCjtvThDkuvh5joGCE81OGUk==" value="0q9vZkljSbCOqDul2gHkP0E6TV5EofYZHVobjnQOcxLJv842nhrLzjPJPtP4RuHg">
+		<input type="hidden" name="3dceeab8ab0c4f829ebf48649dcb55de+sgpQbzkZx9oJZt0QeHV7/741269882785047/zz7gWOaAe1ZAiZxtkjPeHndzCBIZeHPX==" value="False">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script src="{{ url_for('static', path='/js/app.js') }}"></script>
+	</footer>
+</body>
+
+</html>

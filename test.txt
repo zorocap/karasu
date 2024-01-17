@@ -1,0 +1,10 @@
+# Trending Airing series
+# https://yugenanime.tv/api/discover/?status=Currently+Airing&sort=Highest+Rating&origin=JP
+
+# All time best / Most Popular Series
+# https://yugenanime.tv/api/discover/?sort=Highest+Rating&origin=JP
+
+# https://yugenanime.tv/discover/?sort=Highest+Rating&origin=JP&genreIncluded=Mystery̥
+
+# Search query
+https://yugenanime.tv/api/discover/?q=juju
