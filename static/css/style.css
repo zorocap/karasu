@@ -4353,7 +4353,7 @@ button.toast-close-button {
     cursor: pointer;
     background: 0 0;
     border: 0;
-    -webkit-appearance: none
+    appearance: none
 }
 
 .toast-top-center,.toast-top-full-width {
