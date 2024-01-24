@@ -1,0 +1,2120 @@
+(['C:\\Users\\RAHUL '
+  'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\main.py'],
+ ['C:\\Users\\RAHUL '
+  'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime'],
+ [],
+ ['c:\\users\\rahul '
+  'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
+  'c:\\users\\rahul '
+  'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+ {},
+ [],
+ [],
+ False,
+ {},
+ [],
+ [],
+ '3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit '
+ '(AMD64)]',
+ [('pyi_rth_inspect',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('main',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\main.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_forkserver',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\signal.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\selectors.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\gzip.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\copy.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\gettext.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\metadata.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('configparser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\configparser.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\calendar.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\random.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\pprint.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\string.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\bisect.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\quopri.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\getopt.py',
+   'PYMODULE'),
+  ('uu',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\uu.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\optparse.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\csv.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\token.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\lzma.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\bz2.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('_compression',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_compression.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\netrc.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\shlex.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.cookies',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\http\\cookies.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ssl.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\numbers.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\datetime.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\base64.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\hmac.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('struct',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\struct.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\socket.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\runpy.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('zipimport',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\zipimport.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ast.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\dis.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\opcode.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('_pyi_rth_utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\PyInstaller\\fake-modules\\_pyi_rth_utils\\__init__.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\typing.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('uvicorn',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.workers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\workers.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.watchgodreload',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\watchgodreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.watchfilesreload',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\watchfilesreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.statreload',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\statreload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.multiprocess',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\multiprocess.py',
+   'PYMODULE'),
+  ('click',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\__init__.py',
+   'PYMODULE'),
+  ('click.utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\utils.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\glob.py',
+   'PYMODULE'),
+  ('typing_extensions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\typing_extensions.py',
+   'PYMODULE'),
+  ('click._compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\_compat.py',
+   'PYMODULE'),
+  ('colorama',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('click._winconsole',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\_winconsole.py',
+   'PYMODULE'),
+  ('click.termui',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\termui.py',
+   'PYMODULE'),
+  ('click._termui_impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\_termui_impl.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\tty.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('click.parser',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\parser.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\difflib.py',
+   'PYMODULE'),
+  ('click.globals',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\globals.py',
+   'PYMODULE'),
+  ('click.formatting',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\formatting.py',
+   'PYMODULE'),
+  ('click._textwrap',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\_textwrap.py',
+   'PYMODULE'),
+  ('click.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\exceptions.py',
+   'PYMODULE'),
+  ('click.decorators',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\decorators.py',
+   'PYMODULE'),
+  ('importlib_metadata',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib_metadata._itertools',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib_metadata._functools',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib_metadata._compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_compat.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\platform.py',
+   'PYMODULE'),
+  ('importlib_metadata._collections',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib_metadata._py39compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_py39compat.py',
+   'PYMODULE'),
+  ('importlib_metadata._meta',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib_metadata._adapters',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib_metadata._text',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata\\_text.py',
+   'PYMODULE'),
+  ('zipp',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\zipp\\__init__.py',
+   'PYMODULE'),
+  ('zipp.glob',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\zipp\\glob.py',
+   'PYMODULE'),
+  ('zipp.py310compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\zipp\\py310compat.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\__future__.py',
+   'PYMODULE'),
+  ('click.core',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\core.py',
+   'PYMODULE'),
+  ('click.shell_completion',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\shell_completion.py',
+   'PYMODULE'),
+  ('click.types',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\click\\types.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\uuid.py',
+   'PYMODULE'),
+  ('ctypes.util',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors.basereload',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\basereload.py',
+   'PYMODULE'),
+  ('uvicorn.supervisors',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\supervisors\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.server',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\server.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.wsproto_impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\websockets\\wsproto_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.websockets_impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\websockets\\websockets_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets.auto',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\websockets\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.websockets',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\websockets\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\utils.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.httptools_impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\http\\httptools_impl.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.h11_impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\http\\h11_impl.py',
+   'PYMODULE'),
+  ('h11._connection',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_connection.py',
+   'PYMODULE'),
+  ('h11._writers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_writers.py',
+   'PYMODULE'),
+  ('h11._util',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_util.py',
+   'PYMODULE'),
+  ('h11._state',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_state.py',
+   'PYMODULE'),
+  ('h11._receivebuffer',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_receivebuffer.py',
+   'PYMODULE'),
+  ('h11._readers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_readers.py',
+   'PYMODULE'),
+  ('h11._abnf',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_abnf.py',
+   'PYMODULE'),
+  ('h11._headers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_headers.py',
+   'PYMODULE'),
+  ('h11._events',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_events.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\dataclasses.py',
+   'PYMODULE'),
+  ('h11',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\__init__.py',
+   'PYMODULE'),
+  ('h11._version',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\h11\\_version.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.flow_control',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\http\\flow_control.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http.auto',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\http\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.protocols.http',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\http\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.protocols',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\protocols\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.wsgi',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\middleware\\wsgi.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.proxy_headers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\middleware\\proxy_headers.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.message_logger',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\middleware\\message_logger.py',
+   'PYMODULE'),
+  ('uvicorn.middleware.asgi2',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\middleware\\asgi2.py',
+   'PYMODULE'),
+  ('uvicorn.middleware',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.loops.uvloop',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\loops\\uvloop.py',
+   'PYMODULE'),
+  ('uvicorn.loops.auto',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\loops\\auto.py',
+   'PYMODULE'),
+  ('uvicorn.loops.asyncio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\loops\\asyncio.py',
+   'PYMODULE'),
+  ('uvicorn.loops',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\loops\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.logging',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\logging.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.on',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\lifespan\\on.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan.off',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\lifespan\\off.py',
+   'PYMODULE'),
+  ('uvicorn.lifespan',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\lifespan\\__init__.py',
+   'PYMODULE'),
+  ('uvicorn.importer',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\importer.py',
+   'PYMODULE'),
+  ('uvicorn._types',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\_types.py',
+   'PYMODULE'),
+  ('uvicorn._subprocess',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\_subprocess.py',
+   'PYMODULE'),
+  ('uvicorn.__main__',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\__main__.py',
+   'PYMODULE'),
+  ('uvicorn.main',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\main.py',
+   'PYMODULE'),
+  ('uvicorn.config',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\uvicorn\\config.py',
+   'PYMODULE'),
+  ('logging.config',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\logging\\config.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('logging.handlers',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\logging\\handlers.py',
+   'PYMODULE'),
+  ('smtplib',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\smtplib.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('starlette.middleware.cors',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\middleware\\cors.py',
+   'PYMODULE'),
+  ('starlette.middleware',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\middleware\\__init__.py',
+   'PYMODULE'),
+  ('starlette',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\__init__.py',
+   'PYMODULE'),
+  ('starlette.types',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\types.py',
+   'PYMODULE'),
+  ('starlette.websockets',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\websockets.py',
+   'PYMODULE'),
+  ('starlette.datastructures',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\datastructures.py',
+   'PYMODULE'),
+  ('starlette.concurrency',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\concurrency.py',
+   'PYMODULE'),
+  ('anyio.to_thread',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\to_thread.py',
+   'PYMODULE'),
+  ('anyio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._trio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_backends\\_trio.py',
+   'PYMODULE'),
+  ('exceptiongroup',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\__init__.py',
+   'PYMODULE'),
+  ('exceptiongroup._suppress',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\_suppress.py',
+   'PYMODULE'),
+  ('exceptiongroup._formatting',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\_formatting.py',
+   'PYMODULE'),
+  ('exceptiongroup._exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\_exceptions.py',
+   'PYMODULE'),
+  ('exceptiongroup._version',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\_version.py',
+   'PYMODULE'),
+  ('exceptiongroup._catch',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\exceptiongroup\\_catch.py',
+   'PYMODULE'),
+  ('anyio.streams.memory',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\streams\\memory.py',
+   'PYMODULE'),
+  ('anyio.streams',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\streams\\__init__.py',
+   'PYMODULE'),
+  ('anyio.lowlevel',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\lowlevel.py',
+   'PYMODULE'),
+  ('anyio.abc._eventloop',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_eventloop.py',
+   'PYMODULE'),
+  ('anyio.abc._testing',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_testing.py',
+   'PYMODULE'),
+  ('anyio.abc._tasks',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_tasks.py',
+   'PYMODULE'),
+  ('anyio.abc._subprocesses',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio.abc._streams',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_streams.py',
+   'PYMODULE'),
+  ('anyio.abc._resources',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_resources.py',
+   'PYMODULE'),
+  ('anyio.abc._sockets',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\_sockets.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('anyio.from_thread',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\from_thread.py',
+   'PYMODULE'),
+  ('anyio._core',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._asyncio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_backends\\_asyncio.py',
+   'PYMODULE'),
+  ('sniffio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\sniffio\\__init__.py',
+   'PYMODULE'),
+  ('sniffio._impl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\sniffio\\_impl.py',
+   'PYMODULE'),
+  ('sniffio._version',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\sniffio\\_version.py',
+   'PYMODULE'),
+  ('anyio._backends',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_backends\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._typedattr',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_typedattr.py',
+   'PYMODULE'),
+  ('anyio._core._testing',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_testing.py',
+   'PYMODULE'),
+  ('anyio._core._tasks',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_tasks.py',
+   'PYMODULE'),
+  ('anyio._core._synchronization',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_synchronization.py',
+   'PYMODULE'),
+  ('anyio._core._subprocesses',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_subprocesses.py',
+   'PYMODULE'),
+  ('anyio._core._streams',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_streams.py',
+   'PYMODULE'),
+  ('anyio._core._sockets',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_sockets.py',
+   'PYMODULE'),
+  ('idna',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('anyio.streams.tls',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\streams\\tls.py',
+   'PYMODULE'),
+  ('anyio.streams.stapled',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\streams\\stapled.py',
+   'PYMODULE'),
+  ('anyio._core._signals',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_signals.py',
+   'PYMODULE'),
+  ('anyio._core._resources',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_resources.py',
+   'PYMODULE'),
+  ('anyio._core._fileio',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_fileio.py',
+   'PYMODULE'),
+  ('anyio._core._exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_exceptions.py',
+   'PYMODULE'),
+  ('anyio.abc',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\abc\\__init__.py',
+   'PYMODULE'),
+  ('anyio._core._eventloop',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\anyio\\_core\\_eventloop.py',
+   'PYMODULE'),
+  ('starlette.staticfiles',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\staticfiles.py',
+   'PYMODULE'),
+  ('starlette.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\exceptions.py',
+   'PYMODULE'),
+  ('starlette.middleware.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\middleware\\exceptions.py',
+   'PYMODULE'),
+  ('starlette._exception_handler',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\_exception_handler.py',
+   'PYMODULE'),
+  ('starlette._utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\_utils.py',
+   'PYMODULE'),
+  ('bs4',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\__init__.py',
+   'PYMODULE'),
+  ('bs4.element',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\element.py',
+   'PYMODULE'),
+  ('bs4.formatter',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\formatter.py',
+   'PYMODULE'),
+  ('bs4.css',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\css.py',
+   'PYMODULE'),
+  ('soupsieve',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\__init__.py',
+   'PYMODULE'),
+  ('soupsieve.css_parser',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\css_parser.py',
+   'PYMODULE'),
+  ('soupsieve.css_match',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\css_match.py',
+   'PYMODULE'),
+  ('soupsieve.css_types',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\css_types.py',
+   'PYMODULE'),
+  ('soupsieve.pretty',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\pretty.py',
+   'PYMODULE'),
+  ('soupsieve.util',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\util.py',
+   'PYMODULE'),
+  ('soupsieve.__meta__',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\soupsieve\\__meta__.py',
+   'PYMODULE'),
+  ('bs4.dammit',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\dammit.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\builder\\__init__.py',
+   'PYMODULE'),
+  ('bs4.builder._lxml',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\builder\\_lxml.py',
+   'PYMODULE'),
+  ('bs4.builder._html5lib',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\builder\\_html5lib.py',
+   'PYMODULE'),
+  ('bs4.builder._htmlparser',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\bs4\\builder\\_htmlparser.py',
+   'PYMODULE'),
+  ('html.parser',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\html\\parser.py',
+   'PYMODULE'),
+  ('_markupbase',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_markupbase.py',
+   'PYMODULE'),
+  ('requests',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.models',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('certifi',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\lib\\importlib\\resources.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('starlette.templating',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\templating.py',
+   'PYMODULE'),
+  ('jinja2',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('starlette.background',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\background.py',
+   'PYMODULE'),
+  ('starlette.responses',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\responses.py',
+   'PYMODULE'),
+  ('starlette._compat',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\_compat.py',
+   'PYMODULE'),
+  ('starlette.requests',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\requests.py',
+   'PYMODULE'),
+  ('starlette.formparsers',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\formparsers.py',
+   'PYMODULE'),
+  ('starlette.routing',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\routing.py',
+   'PYMODULE'),
+  ('starlette.convertors',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\convertors.py',
+   'PYMODULE'),
+  ('starlette.applications',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\applications.py',
+   'PYMODULE'),
+  ('starlette.middleware.errors',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\middleware\\errors.py',
+   'PYMODULE'),
+  ('starlette.middleware.base',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\starlette\\middleware\\base.py',
+   'PYMODULE')],
+ [('python38.dll',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\python38.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md__mypyc.cp38-win_amd64.pyd',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\md__mypyc.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('charset_normalizer\\md.cp38-win_amd64.pyd',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\charset_normalizer\\md.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp38-win_amd64.pyd',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\markupsafe\\_speedups.cp38-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-1_1.dll',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('libffi-7.dll',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\AppData\\Local\\Programs\\Python\\Python38\\DLLs\\libffi-7.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Java\\jdk-18.0.1\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\RAHUL '
+   'GUPTA\\Desktop\\Interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\build\\main\\base_library.zip',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\RECORD',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\RECORD',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\METADATA',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\METADATA',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\INSTALLER',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\top_level.txt',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\WHEEL',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\WHEEL',
+   'DATA'),
+  ('importlib_metadata-7.0.1.dist-info\\LICENSE',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\importlib_metadata-7.0.1.dist-info\\LICENSE',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'c:\\users\\rahul '
+   'gupta\\desktop\\interesting\\anime-stream\\animefolder\\animedlpro\\starlette-anime\\env\\lib\\site-packages\\certifi\\py.typed',
+   'DATA')])
