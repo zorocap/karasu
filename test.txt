@@ -7,4 +7,6 @@
 # https://yugenanime.tv/discover/?sort=Highest+Rating&origin=JP&genreIncluded=Mystery̥
 
 # Search query
-https://yugenanime.tv/api/discover/?q=juju
+# https://yugenanime.tv/api/discover/?q=juju
+
+blob:https://yugenanime.tv/fd230640-53b7-4171-84c5-fa9e8be30aa3

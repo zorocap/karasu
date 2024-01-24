@@ -5142,3 +5142,5 @@ button[name=player-external]::before {
     }
 }
 /* trending page end */
+
+iframe:not(#main-embed), .plyr__poster { display: none !important; }
