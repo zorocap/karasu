@@ -27,6 +27,9 @@ async def home(request:Request):
 async def manifest(request:Request):
     return FileResponse("static/manifest.json", media_type="application/json")
 
+async def service_worker(request:Request):
+    return FileResponse("static/sw.js", media_type="application/javascript")
+
 async def index(request:Request):
     student_id = request.path_params.get("student_id")
 
@@ -222,6 +225,7 @@ routes = [
     Mount('/static', app=StaticFiles(directory='static'), name="static"),
     Route("/", endpoint=home),
     Route("/manifest.json", manifest),
+    Route("/sw.js", service_worker),
     Route("/{student_id:int}", endpoint=index),
     Route("/json", endpoint=json_endpoint),
     Route("/trending/", endpoint=trending_page),
