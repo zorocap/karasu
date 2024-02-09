@@ -79,13 +79,14 @@ async def anime_stream(request:Request):
     URL = f"https://yugenanime.tv/watch/{anime_id}/{anime_name}/{anime_episode}/"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
+    player_controls = soup.find('div', attrs={'class': 'player--controls'})
     html_content = soup.find('div', attrs={'class': 'inner--container'})
     element_to_exclude = soup.find('div', attrs={'class': 'box m-10-t m-25-b p-15'})
     element_to_exclude.extract() # extract the element that is not required
     
     iframe_content = soup.find('iframe', attrs={'id': 'main-embed'})
     iframe_src = iframe_content['src'].split('/e/')[1]
-    context = {"request":request, "stream_content":html_content, "video_src":iframe_src}
+    context = {"request":request, "stream_content":html_content, "player_controls": player_controls, "video_src":iframe_src}
     return templates.TemplateResponse("stream.html", context)
 
 async def video_scratcher(request:Request):
@@ -113,8 +114,9 @@ async def video_scratcher(request:Request):
 
             if m3u8_link:
                 video_src = m3u8_link
+                # video_src = False
             else:
-                video_src = 'No .m3u8 link found in network requests.'
+                video_src = False
 
         finally:
             await browser.close()

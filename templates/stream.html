@@ -9,7 +9,10 @@
     
     <!-- Add a video element -->
     <div class="video-container">
-        <video id="main-video" poster="{{ url_for('static', path='/img/loader.gif') }}"></video>
+        <div class="video-wrapper">
+            <video id="main-video" poster="{{ url_for('static', path='/img/loader.gif') }}"></video>
+        </div>
+        {{player_controls | safe}}
     </div>
 
         {{stream_content | safe}}
@@ -18,10 +21,20 @@
 
         async function logMovies() {
             try {
-                const response = await fetch("/e/{{video_src | safe}}");
-                const result = await response.json();
-                const video_link = result['message'];
-                console.log("Success:", result);
+                var video_link = 'Not found';
+                async function getVideoLink() {
+                    const response = await fetch("/e/{{video_src | safe}}");
+                    const result = await response.json();
+                    video_link = result['message'];
+                    return video_link;
+                }
+                var video_link_func = await getVideoLink();
+                if(!video_link_func) {
+                    video_link_func = await getVideoLink();
+                    console.log("Second try " + video_link)
+                } else {
+                    console.log("Success:", video_link);
+                }
                 // document.querySelector("#end").innerHTML += "<h2>" + video_link + "</h2>";
 
                 var video_element = document.getElementById('main-video');
