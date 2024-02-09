@@ -1,4 +1,96 @@
 {% extends "base.html" %}
+{% block external_link %}
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+{% endblock external_link %}
 {% block content %}
-    {{stream_content | safe}}
+    <!-- Include Hls.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    
+    <!-- Add a video element -->
+    <div class="video-container">
+        <video id="main-video" poster="{{ url_for('static', path='/img/loader.gif') }}"></video>
+    </div>
+
+        {{stream_content | safe}}
+
+    <script>
+
+        async function logMovies() {
+            try {
+                const response = await fetch("/e/{{video_src | safe}}");
+                const result = await response.json();
+                const video_link = result['message'];
+                console.log("Success:", result);
+                // document.querySelector("#end").innerHTML += "<h2>" + video_link + "</h2>";
+
+                var video_element = document.getElementById('main-video');
+                video_element.removeAttribute('poster')
+                
+                const defaultOptions = {};
+                if(Hls.isSupported()){
+                    const hls = new Hls();
+                    hls.loadSource(video_link)
+                    hls.on(Hls.Events.MANIFEST_PARSED, function(event, data){
+                        const availableQualities = hls.levels.map((l) => l.height)
+                        defaultOptions.controls = [
+                            'play-large', // The large play button in the center
+                            // 'restart', // Restart playback
+                            'rewind', // Rewind by the seek time (default 10 seconds)
+                            'play', // Play/pause playback
+                            'fast-forward', // Fast forward by the seek time (default 10 seconds)
+                            'progress', // The progress bar and scrubber for playback and buffering
+                            'current-time', // The current time of playback
+                            'duration', // The full duration of the media
+                            'mute', // Toggle mute
+                            'volume', // Volume control
+                            'settings', // Settings menu
+                            'pip', // Picture-in-picture (currently Safari only)
+                            'airplay', // Airplay (currently Safari only)
+                            'fullscreen', // Toggle fullscreen
+                        ];
+                        defaultOptions.quality = {
+                            default: availableQualities[0],
+                            options: availableQualities,
+                            forced: true,
+                            onChange: (e) => updateQuality(e)
+                        }
+                        new Plyr(video_element, defaultOptions);
+                    });
+                    hls.attachMedia(video_element);
+                    window.hls = hls;
+
+                    // Add custom keyboard controls
+                    document.addEventListener('keydown', function (event) {
+                    switch (event.key) {
+                        case ' ':
+                        if (hls.playing) {
+                            hls.pause();
+                        } else {
+                            hls.play();
+                        }
+                        break;
+                        case 'ArrowLeft':
+                        hls.rewind();
+                        break;
+                        case 'ArrowRight':
+                        hls.forward();
+                        break;
+                        // Add more controls as needed
+                    }
+                    });
+                }
+                function updateQuality(newQuality){
+                    window.hls.levels.forEach((level, levelIndex) => {
+                        if(level.height === newQuality) {
+                            window.hls.currentLevel = levelIndex
+                        }
+                    })
+                }
+            } catch (error) {
+                document.querySelector("#end").innerHTML += "<h2>Error " + error + "</h2>";
+            }            
+        }
+        logMovies();
+    </script>
 {% endblock  %}

@@ -22,12 +22,7 @@ driver = webdriver.Chrome(options=chrome_options)
 
 try:
     # Navigate to your website
-    driver.get('https://yugenanime.tv/e/MTg3NDV8NA==/')
-
-    # Play the video (assuming it's auto-playing, if not, trigger the play action)
-    # Replace 'play-button-selector' with the actual selector for the play button
-    # play_button = driver.find_element_by_css_selector('play-button-selector')
-    # play_button.click()
+    driver.get('https://yugenanime.tv/e/MTg3NTl8MXxkdWI=/')
 
     # Wait for some time to let the video load (you may need to adjust the duration)
     time.sleep(5)

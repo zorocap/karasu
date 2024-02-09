@@ -59,7 +59,8 @@
 }
 
 .theme-blue-purple {
-    --color-theme: 23,85,222;
+    /* --color-theme: 23,85,222; */
+    --color-theme: 129,96,171;
     --color-theme-light: 105,8,172
 }
 
@@ -4666,7 +4667,8 @@ button.toast-close-button {
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 7px;
-    color: rgb(var(--color-theme))
+    color: rgb(var(--color-theme));
+    text-shadow: 3px 3px 0 #000000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .swiper-navigation {
@@ -5143,4 +5145,32 @@ button[name=player-external]::before {
 }
 /* trending page end */
 
-iframe:not(#main-embed), .plyr__poster { display: none !important; }
+/* Avoid displaying ads */
+iframe:not(#main-embed, .lozad), 
+.plyr__poster { display: none !important; }
+
+/* Scroll bar css */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #888; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+/* Video css */
+.video-container {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+video { object-fit: cover; }
+.plyr__menu__container .plyr__menu__value,
+.plyr__menu__container .plyr__control>span { color: #4a5464 }
+
+@media (min-width: 748px) {
+    video { min-height: 60vh; }
+    .plyr:not(:fullscreen) video#main-video { height: 60vh; }
+}
+
+@media (max-width: 748px) {
+    video { height: calc(100vw * 0.5625); }
+}

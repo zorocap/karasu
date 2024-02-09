@@ -1,0 +1,36 @@
+{
+    "short_name": "MirainoAnime",
+    "name": "MirainoAnime",
+    "description": "Track, Discover, Share & Watch Anime for Free! :: MirainoAnime",
+    "icons": [
+      {
+        "src": "/static/img/favicon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/favicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/static/img/favicon-16x16.png",
+        "type": "image/png",
+        "sizes": "16x16",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#101112",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#101112"
+}

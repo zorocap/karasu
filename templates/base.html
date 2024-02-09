@@ -1,7 +1,7 @@
 <html lang="en">
 
 <head>
-	<title>{% block title %}{% endblock title %} YugenAnime</title>
+	<title>{% block title %}{% endblock title %} MirainoAnime</title>
 	<!-- Primary Meta Tags -->
 	<meta charset="UTF-8">
 	<meta name="theme-color" content="#101112">
@@ -32,15 +32,16 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.8/swiper-bundle.css">
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://yugenanime.tv/static/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="https://yugenanime.tv/static/img/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="https://yugenanime.tv/static/img/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', path='/img/favicon.png') }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', path='/img/favicon.png') }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', path='/img/favicon.png') }}">
 	<link rel="manifest" href="/manifest.json">
 	<!-- Scripts -->
+	{% block external_link %}{% endblock external_link %}
 	<!-- <script data-cfasync="false" async="" type="text/javascript" src="//xd.awashemeers.com/rvXs753db8V/OqvgX"></script> -->
 </head>
 
-<body>
+<body class="theme-red">
 	<noscript>Sorry, YugenAnime requires Javascript.
 		<br>Please enable javascript or <a href="http://outdatedbrowser.com" class="link">upgrade to a modern web browser</a></noscript>
 	<header>
@@ -54,7 +55,7 @@
 					<div></div>
 					<div></div>
 				</div>
-				<a href="/" class="header--logo"><img src="https://yugenanime.tv/static/img/logo__light.png" alt="YugenAnime"></a>
+				<a href="/" class="header--logo"><img src="{{ url_for('static', path='/img/mirainoAnime.png') }}" alt="YugenAnime"></a>
 			</div>
 			<div id="center" class="header--center">
 				<div class="search--container">
