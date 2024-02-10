@@ -184,7 +184,8 @@ header {
 .header--logo img {
     cursor: pointer;
     display: block;
-    height: 22px
+    height: 22px;
+    filter: drop-shadow(2px 2px 0px black);
 }
 
 .header--center {
@@ -849,7 +850,7 @@ a {
 
 .btn-smallest {
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 900;
     padding: 6px 8px
 }
 
@@ -939,7 +940,8 @@ aside.navigation .nav-item {
 }
 
 aside.navigation .nav-item[data-selected] {
-    background: rgba(96,96,96,.2)
+    background: rgba(96,96,96,.2);
+    font-weight: 900;
 }
 
 aside.navigation .nav-item svg {
@@ -3257,6 +3259,7 @@ noscript {
 @media (max-width: 612px) {
     .anime-metadetails {
         display:flex;
+        flex-direction: column;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         -webkit-overflow-scrolling: touch;
         overflow-x: auto;
@@ -3711,7 +3714,7 @@ a.ep-details img {
     overflow: hidden;
     margin-bottom: 3px;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 900;
     color: rgba(var(--color-theme))
 }
 
@@ -4815,7 +4818,8 @@ button.toast-close-button {
 }
 
 .sel-lang-button[data-selected] {
-    color: rgb(var(--color-theme))!important
+    color: rgb(var(--color-theme))!important;
+    font-weight: 900;
 }
 
 .sel-lang-left {

@@ -3,6 +3,8 @@ from starlette.routing import Route
 from starlette.requests import Request
 from starlette.responses import PlainTextResponse, JSONResponse, HTMLResponse, FileResponse
 from starlette.templating import Jinja2Templates
+from starlette.middleware.trustedhost import TrustedHostMiddleware
+from starlette.exceptions import HTTPException
 import requests
 from bs4 import BeautifulSoup
 from starlette.routing import Mount
@@ -78,6 +80,10 @@ async def anime_stream(request:Request):
 
     URL = f"https://yugenanime.tv/watch/{anime_id}/{anime_name}/{anime_episode}/"
     response = requests.get(URL)
+
+    if response.status_code != 200:
+        return templates.TemplateResponse("error.html", context={"request":request, "message": "Not found"})
+    
     soup = BeautifulSoup(response.content, 'html.parser')
     player_controls = soup.find('div', attrs={'class': 'player--controls'})
     html_content = soup.find('div', attrs={'class': 'inner--container'})
@@ -223,6 +229,10 @@ async def schedule_json(request:Request):
     # return PlainTextResponse(content=byte_str)
     return JSONResponse(content=api_response_json)
 
+async def not_found(request, exc):
+    # return HTMLResponse("<h1>404 Not Found</h1>", status_code=404)
+    return templates.TemplateResponse("error.html", context={"request":request})
+
 routes = [
     Mount('/static', app=StaticFiles(directory='static'), name="static"),
     Route("/", endpoint=home),
@@ -246,6 +256,10 @@ app = Starlette(
     debug=True,
     routes=routes
 )
+
+# Middleware for TrustedHostMiddleware
+app.add_middleware(TrustedHostMiddleware, allowed_hosts=["*"])
+app.add_exception_handler(HTTPException, not_found)
 
 app.add_middleware(
     CORSMiddleware,
