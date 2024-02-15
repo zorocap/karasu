@@ -5177,7 +5177,7 @@ iframe:not(#main-embed, .lozad),
 video {
     width: 100%;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 .plyr__menu__container .plyr__menu__value,
 .plyr__menu__container .plyr__control>span { color: #4a5464 }
