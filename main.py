@@ -1,7 +1,7 @@
 from starlette.applications import Starlette
 from starlette.routing import Route
 from starlette.requests import Request
-from starlette.responses import PlainTextResponse, JSONResponse, HTMLResponse, FileResponse
+from starlette.responses import PlainTextResponse, JSONResponse, HTMLResponse, FileResponse, RedirectResponse
 from starlette.templating import Jinja2Templates
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 from starlette.exceptions import HTTPException
@@ -15,9 +15,45 @@ import uvicorn
 # for getting video link
 from playwright.async_api import async_playwright
 
+# For handling Login functionality
+from starlette.middleware.sessions import SessionMiddleware
+import pickle
+from passlib.hash import bcrypt
+
 templates=Jinja2Templates(directory="templates")
 
+# Load user data from file or initialize an empty dictionary
+try:
+    with open("users.txt", "rb") as file:
+        users_data = pickle.load(file)
+except FileNotFoundError:
+    users_data = {}
+
+async def save_users_data():
+    # Save user data to the file
+    with open("users.txt", "wb") as file:
+        pickle.dump(users_data, file)
+
+async def create_user(username: str, password: str):
+    # Hash the password before storing it
+    hashed_password = bcrypt.hash(password)
+    
+    # Store user data in the dictionary
+    users_data[username] = {
+        'username': username,
+        'password': hashed_password
+    }
+
+    # Save the updated user data to the file
+    await save_users_data()
+
+async def get_user(username: str):
+    # Retrieve user data from the dictionary
+    return users_data.get(username)
+
 async def home(request:Request):
+    if request.method == "POST":
+        pass
     URL = "https://yugenanime.tv/"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -25,6 +61,36 @@ async def home(request:Request):
 
     context = {"request":request, "home_list":home_list, "sample_text": "This is sampling"}
     return templates.TemplateResponse("index.html", context)
+
+async def register(request: Request):
+    if request.method == "POST":
+        form = await request.form()
+        username = form.get("username")
+        password = form.get("password")
+
+        await create_user(username, password)
+        return RedirectResponse(url="/")
+
+    return templates.TemplateResponse("register.html", {"request": request})
+
+async def login(request: Request):
+    print(request.method)
+    if request.method == "POST":
+        form = await request.form()
+        username = form.get("username")
+        password = form.get("password")
+
+        user = await get_user(username)
+
+        if user and bcrypt.verify(password, user['password']):
+            request.session["user"] = user['username']
+            return RedirectResponse(url="/")
+
+    return templates.TemplateResponse("login.html", {"request": request})
+
+async def logout(request: Request):
+    request.session.pop("user", None)
+    return RedirectResponse(url="/")
 
 async def manifest(request:Request):
     return FileResponse("static/manifest.json", media_type="application/json")
@@ -235,7 +301,10 @@ async def not_found(request, exc):
 
 routes = [
     Mount('/static', app=StaticFiles(directory='static'), name="static"),
-    Route("/", endpoint=home),
+    Route("/", endpoint=home, methods=["GET", "POST"]),
+    Route("/register", endpoint=register, methods=["GET", "POST"]),
+    Route("/login", endpoint=login, methods=["GET", "POST"]),
+    Route("/logout", endpoint=logout, methods=["GET"]),
     Route("/manifest.json", manifest),
     Route("/sw.js", service_worker),
     Route("/{student_id:int}", endpoint=index),
@@ -259,6 +328,7 @@ app = Starlette(
 
 # Middleware for TrustedHostMiddleware
 app.add_middleware(TrustedHostMiddleware, allowed_hosts=["*"])
+app.add_middleware(SessionMiddleware, secret_key="your-secret-key")
 app.add_exception_handler(HTTPException, not_found)
 
 app.add_middleware(

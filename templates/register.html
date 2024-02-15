@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register - YugenAnime</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.min.css?v=6.12">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', path='/img/favicon.png') }}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', path='/img/favicon.png') }}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', path='/img/favicon.png') }}">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async="" defer=""></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+  <body class="theme-red">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <main class="flex justify-center align-center h-100 bg-fun">
+        <div class="authentication-box">
+            <div class="m-15-b">
+              <a href="/">
+                <img src="{{ url_for('static', path='/img/mirainoAnime.png') }}" height="25px" alt="MirainoAnime">
+              </a>
+            </div>
+            <div class="form__container m-15-b"></div>
+            <div class="form__container m-15-b"></div>
+            <div class="form__container m-15-b"></div>
+            <div class="form__container m-15-b"></div>
+            <form action="/register" method="post">
+              <!-- <input type="hidden" name="csrfmiddlewaretoken" value="QR58TLXgdVgnB5BkGe0RkR7Wx4UYQtKNaq9UGPMe7CUG5kMDoJyfQNYaj1MjWPJ9"> -->
+              <div class="form__container m-15-b" style="position: relative;">
+                <input type="text" name="username" maxlength="24" required="" id="id_username" class="main-input-box p-30-l" placeholder="Username">
+                <svg viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"></path>
+                </svg>
+              </div>
+              <!-- <div class="form__container m-15-b" style="position: relative;">
+                <input type="email" name="email" autofocus="" required="" id="id_email" class="main-input-box p-30-l" placeholder="Email">
+                <svg viewBox="0 0 24 24">
+                  <path fill="currentColor" d="M12,15C12.81,15 13.5,14.7 14.11,14.11C14.7,13.5 15,12.81 15,12C15,11.19 14.7,10.5 14.11,9.89C13.5,9.3 12.81,9 12,9C11.19,9 10.5,9.3 9.89,9.89C9.3,10.5 9,11.19 9,12C9,12.81 9.3,13.5 9.89,14.11C10.5,14.7 11.19,15 12,15M12,2C14.75,2 17.1,3 19.05,4.95C21,6.9 22,9.25 22,12V13.45C22,14.45 21.65,15.3 21,16C20.3,16.67 19.5,17 18.5,17C17.3,17 16.31,16.5 15.56,15.5C14.56,16.5 13.38,17 12,17C10.63,17 9.45,16.5 8.46,15.54C7.5,14.55 7,13.38 7,12C7,10.63 7.5,9.45 8.46,8.46C9.45,7.5 10.63,7 12,7C13.38,7 14.55,7.5 15.54,8.46C16.5,9.45 17,10.63 17,12V13.45C17,13.86 17.16,14.22 17.46,14.53C17.76,14.84 18.11,15 18.5,15C18.92,15 19.27,14.84 19.57,14.53C19.87,14.22 20,13.86 20,13.45V12C20,9.81 19.23,7.93 17.65,6.35C16.07,4.77 14.19,4 12,4C9.81,4 7.93,4.77 6.35,6.35C4.77,7.93 4,9.81 4,12C4,14.19 4.77,16.07 6.35,17.65C7.93,19.23 9.81,20 12,20H17V22H12C9.25,22 6.9,21 4.95,19.05C3,17.1 2,14.75 2,12C2,9.25 3,6.9 4.95,4.95C6.9,3 9.25,2 12,2Z"></path>
+                </svg>
+              </div> -->
+              <div class="flex justify-between align-center m-15-b">
+                <div class="form__container m-10-r" style="position: relative;">
+                  <input type="password" name="password" required="" id="id_password1" class="main-input-box p-30-l" placeholder="Password">
+                  <svg viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M12,17C10.89,17 10,16.1 10,15C10,13.89 10.89,13 12,13A2,2 0 0,1 14,15A2,2 0 0,1 12,17M18,20V10H6V20H18M18,8A2,2 0 0,1 20,10V20A2,2 0 0,1 18,22H6C4.89,22 4,21.1 4,20V10C4,8.89 4.89,8 6,8H7V6A5,5 0 0,1 12,1A5,5 0 0,1 17,6V8H18M12,3A3,3 0 0,0 9,6V8H15V6A3,3 0 0,0 12,3Z"></path>
+                  </svg>
+                </div>
+                <!-- <div class="form__container" style="position: relative;">
+                  <input type="password" name="password2" autocomplete="new-password" required="" id="id_password2" class="main-input-box p-30-l" placeholder="Repeat">
+                  <svg viewBox="0 0 24 24" class="ya-icon">
+                    <path fill="currentColor" d="M6 20V10H18V13.09C18.33 13.04 18.66 13 19 13C19.34 13 19.67 13.04 20 13.09V10C20 8.9 19.11 8 18 8H17V6C17 3.24 14.76 1 12 1S7 3.24 7 6V8H6C4.89 8 4 8.89 4 10V20C4 21.1 4.89 22 6 22H13.81C13.46 21.39 13.22 20.72 13.09 20H6M9 6C9 4.34 10.34 3 12 3S15 4.34 15 6V8H9V6M14 15C14 16.11 13.11 17 12 17C10.89 17 10 16.1 10 15C10 13.89 10.89 13 12 13C13.11 13 14 13.9 14 15M23 18V20H20V23H18V20H15V18H18V15H20V18H23Z"></path>
+                  </svg>
+                </div> -->
+              </div>
+              <div class="flex justify-between align-center m-15-t">
+                <div class="authentication-helper">
+                  <p class="description">Already have an account? <a class="link" href="/login">Sign In</a>
+                  </p>
+                </div>
+                <button class="btn btn-smaller btn-primary" type="submit">Sign Up</button>
+              </div>
+            </form>
+          </div>
+    </main>
+	<script src="{{ url_for('static', path='/js/app.js') }}"></script>
+  </body>
+</html>
