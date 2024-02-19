@@ -1055,7 +1055,7 @@ aside.navigation.is--watching.is--expanded {
         display: flex!important
     }
 
-    .outter--container {
+    .outter--container:not(.streaming) {
         margin-left: 0
     }
 
