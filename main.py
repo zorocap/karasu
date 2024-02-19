@@ -1,3 +1,4 @@
+from configparser import ConfigParser
 from starlette.applications import Starlette
 from starlette.routing import Route
 from starlette.requests import Request
@@ -21,6 +22,15 @@ import pickle
 from passlib.hash import bcrypt
 
 templates=Jinja2Templates(directory="templates")
+
+config = ConfigParser()
+try:
+    config.read("settings.ini")
+except:
+    print("Settings.ini format error")
+    raise SystemExit()
+
+website = config["web"]["site"]
 
 # Load user data from file or initialize an empty dictionary
 try:
@@ -54,7 +64,7 @@ async def get_user(username: str):
 async def home(request:Request):
     if request.method == "POST":
         pass
-    URL = "https://yugenanime.tv/"
+    URL = website
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
     home_list = soup.find('main', attrs={'class': 'outter--container'})
@@ -108,7 +118,7 @@ async def json_endpoint(request:Request):
     return JSONResponse(content={"message": "Json hello"})
 
 async def trending_page(request:Request):
-    URL = "https://yugenanime.tv/trending/"
+    URL = f"{website}/trending/"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
     html_content = soup.find('main', attrs={'class': 'outter--container'})
@@ -120,7 +130,7 @@ async def anime_detail_page(request:Request):
     anime_id = request.path_params.get("anime_id")
     anime_name = request.path_params.get("anime_name")
 
-    URL = f"https://yugenanime.tv/anime/{anime_id}/{anime_name}/"
+    URL = f"{website}/anime/{anime_id}/{anime_name}/"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
     html_content = soup.find('main', attrs={'class': 'outter--container'})
@@ -132,7 +142,7 @@ async def anime_detail_watch_page(request:Request):
     anime_name = request.path_params.get("anime_name")
     query_parameters = request.query_params
 
-    URL = f"https://yugenanime.tv/anime/{anime_id}/{anime_name}/watch/?{query_parameters}"
+    URL = f"{website}/anime/{anime_id}/{anime_name}/watch/?{query_parameters}"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
     html_content = soup.find('main', attrs={'class': 'outter--container'})
@@ -144,7 +154,7 @@ async def anime_stream(request:Request):
     anime_name = request.path_params.get("anime_name")
     anime_episode = request.path_params.get("anime_episode")
 
-    URL = f"https://yugenanime.tv/watch/{anime_id}/{anime_name}/{anime_episode}/"
+    URL = f"{website}/watch/{anime_id}/{anime_name}/{anime_episode}/"
     response = requests.get(URL)
 
     if response.status_code != 200:
@@ -164,7 +174,7 @@ async def anime_stream(request:Request):
 async def video_scratcher(request:Request):
     video_id = request.path_params.get("video_id")
 
-    URL = f"https://yugenanime.tv/e/{video_id}/"
+    URL = f"{website}/e/{video_id}/"
     video_src = ''
     async with async_playwright() as p:
         browser = await p.chromium.launch()
@@ -214,14 +224,14 @@ async def simple_plawright_run():
         await browser.close()
 
 async def anime_discover(request:Request):
-    # URL = f"https://yugenanime.tv/discover/"
+    # URL = f"{website}/discover/"
     # response = requests.get(URL)
     # soup = BeautifulSoup(response.content, 'html.parser')
     # html_content = soup.find('main', attrs={'class': 'outter--container'})
     # context = {"request":request, "discover_content":html_content}
     # return templates.TemplateResponse("discover.html", context)
     query_parameters = request.query_params
-    URL = f"https://yugenanime.tv/api/discover/?{query_parameters}"
+    URL = f"{website}/api/discover/?{query_parameters}"
     response = requests.get(URL)
     byte_str = response.content
     # Convert bytes to string
@@ -240,7 +250,7 @@ async def anime_discover(request:Request):
 
 async def api_discover(request:Request):
     query_parameters = request.query_params
-    URL = f"https://yugenanime.tv/api/discover/?{query_parameters}"
+    URL = f"{website}/api/discover/?{query_parameters}"
     response = requests.get(URL)
     byte_str = response.content
     # Convert bytes to string
@@ -256,7 +266,7 @@ async def api_discover(request:Request):
 
 async def latest_anime(request:Request):
     page = request.query_params.get("page")
-    URL = f"https://yugenanime.tv/latest/?page={page}"
+    URL = f"{website}/latest/?page={page}"
     response = requests.get(URL)
     soup = BeautifulSoup(response.content, 'html.parser')
     html_content = soup.find('main', attrs={'class': 'outter--container'})
@@ -265,7 +275,7 @@ async def latest_anime(request:Request):
         
 async def api_search(request:Request):
     query_parameters = request.query_params
-    URL = f"https://yugenanime.tv/api/search/?{query_parameters}"
+    URL = f"{website}/api/search/?{query_parameters}"
     response = requests.get(URL)
     byte_str = response.content
     # Convert bytes to string
@@ -280,7 +290,7 @@ async def api_search(request:Request):
     return JSONResponse(content=api_response_json)
 
 async def schedule_json(request:Request):
-    URL = f"https://yugenanime.tv/schedule.json"
+    URL = f"{website}/schedule.json"
     response = requests.get(URL)
     byte_str = response.content
     
