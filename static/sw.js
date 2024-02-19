@@ -1,4 +1,4 @@
-const staticCacheName = 'yugenanime-v1';
+const staticCacheName = 'mirainoanime-v1';
 const assets = [];
 
 self.addEventListener('install', event => {

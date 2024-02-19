@@ -37,7 +37,7 @@ var mobileLayout = (e) => {
 "watch" === currentPage &&
   (_asideNav.classList.toggle("is--watching"),
   _outterCont.classList.toggle("is--watching"),
-  localStorage.setItem("yugen-side-nav", ""),
+  localStorage.setItem("mirai-side-nav", ""),
   _asideNav.classList.remove("is--expanded"),
   _outterCont.classList.remove("is--expanded"));
 var prevScrollpos = window.pageYOffset,
@@ -50,13 +50,13 @@ mobileLayout(_windowSize),
   _windowSize.addListener(mobileLayout),
   _asideBurger &&
     _asideBurger.addEventListener("click", () => {
-      localStorage.getItem("yugen-side-nav")
-        ? localStorage.setItem("yugen-side-nav", "")
-        : localStorage.setItem("yugen-side-nav", "is--expanded"),
+      localStorage.getItem("mirai-side-nav")
+        ? localStorage.setItem("mirai-side-nav", "")
+        : localStorage.setItem("mirai-side-nav", "is--expanded"),
         _asideNav.classList.toggle("is--expanded"),
         _outterCont.classList.toggle("is--expanded");
     }),
-  localStorage.getItem("yugen-side-nav") &&
+  localStorage.getItem("mirai-side-nav") &&
     (_asideNav.classList.toggle("is--expanded"),
     _outterCont.classList.toggle("is--expanded"));
 let _navItems = document.querySelectorAll("aside a");
@@ -806,7 +806,7 @@ _signOut &&
     messageBox("Confirm", "Are you sure you want to sign out?", function () {
       messageBox(
         "Signing out...",
-        "Thanks for using YugenAnime!",
+        "Thanks for using MirainoAnime!",
         "NO_BUTTONS"
       ),
         window.location.replace("/logout/");
@@ -903,168 +903,168 @@ const _timestamps = document.querySelectorAll(".timer").forEach((e) => {}),
             );
       }
     });
-if ("watch" === currentPage) {
-  const e = window.location.pathname.split("/watch")[1],
-    t = document.querySelector("iframe#main-embed"),
-    a = setInterval(() => {
-      let r = t.contentWindow.document.querySelector("video");
-      if (r) {
-        clearInterval(a);
-        const t = (t, a) => {
-          localStorage.setItem(
-            e,
-            JSON.stringify({
-              time: Math.round(t),
-              duration: Math.round(a),
-            })
-          );
-        };
-        if (localStorage.getItem(e)) {
-          let t = JSON.parse(localStorage.getItem(e)).time;
-          r.currentTime = t;
-        }
-        r.addEventListener("timeupdate", () => {
-          t(r.currentTime, r.duration);
-        });
-      }
-      window.addEventListener("beforeunload", () => {});
-    }, 1e3);
-  document
-    .querySelector("button[name='player-lights']")
-    .addEventListener("click", () => {
-      document
-        .querySelector("body")
-        .insertAdjacentHTML("beforeend", '<div class="player-light"></div>');
-      let e = document.querySelector(".player--container"),
-        t = document.querySelector(".player-light");
-      (e.style.zIndex = 2147483647),
-        e.scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        }),
-        t.addEventListener("click", () => {
-          t.classList.add("fade-out");
-          const a = setTimeout(() => {
-            (e.style.cssText = ""), t.remove(), clearTimeout(a);
-          }, 450);
-        });
-    }),
-    document
-      .querySelector('button[name="player-size"]')
-      .addEventListener("click", () => {
-        let e = document.querySelector("#main-embed");
-        (e.style.cssText =
-          "min-height: 0px; display: block; position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; z-index: 99999999999999;"),
-          (document.body.style.cssText = "overflow: hidden");
-        let t = e.contentWindow.document.createElement("div");
-        (t.style.cssText =
-          "cursor: pointer; position: fixed; top: 0; left: 0; right: 0; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); z-index: 99999999999999; text-align: center; padding: 10px; display: none;"),
-          (t.innerText = "Exit Theatre Mode"),
-          t.addEventListener("click", () => {
-            (e.style.cssText = ""),
-              (document.body.style.cssText = ""),
-              t.remove();
-          }),
-          e.addEventListener("mouseover", () => {
-            t.style.display = "block";
-          }),
-          e.addEventListener("mouseout", () => {
-            t.style.display = "none";
-          }),
-          e.contentWindow.document.body.appendChild(t);
-      }),
-    document
-      .querySelector('button[name="player-screenshot"]')
-      .addEventListener("click", () => {
-        let e = document.querySelector("#main-embed"),
-          t = e.contentWindow.document.querySelector("#plyr");
-        if (!t)
-          return toastr.warning(
-            "Video is not loaded yet or the loaded player is external.",
-            "Screenshot"
-          );
-        let a = e.contentWindow.document.querySelector("canvas"),
-          r = e.contentWindow.document.querySelector("#screenshot-tip");
-        if (a)
-          return (
-            (a.style.opacity = "0"),
-            (r.style.opacity = "0"),
-            void setTimeout(() => {
-              a.remove(), r.remove();
-            }, 250)
-          );
-        let n = e.contentWindow.document.createElement("canvas"),
-          o = e.contentWindow.document.createElement("div");
-        (n.width = t.videoWidth),
-          (n.height = t.videoHeight),
-          (n.style.cssText =
-            "position: fixed; width: 100%; box-shadow: 0px 2px 5px 2px #131313c7; bottom: 0; right: 0; transition: all 350ms ease;"),
-          (o.style.cssText =
-            "opacity: 0; position: fixed; width: 25%; bottom: 10px; right: 10px; transition: all 350ms ease 0s; background-color: rgba(0, 0, 0, 0.75); text-align: center; font-size: 12px; padding: 5px; pointer-events: none; font-weight: bold;"),
-          (o.innerText = "Right click to save or copy screenshot."),
-          o.setAttribute("id", "screenshot-tip"),
-          n.getContext("2d").drawImage(t, 0, 0, n.width, n.height),
-          e.contentWindow.document.body.appendChild(n),
-          e.contentWindow.document.body.appendChild(o),
-          setTimeout(() => {
-            (n.style.width = "25%"),
-              (n.style.bottom = "10px"),
-              (n.style.right = "10px");
-          }, 50),
-          setTimeout(() => {
-            o.style.opacity = "1";
-          }, 600),
-          e.contentWindow.document
-            .querySelector(".plyr")
-            .addEventListener("click", () => {
-              let t = e.contentWindow.document.querySelector("canvas"),
-                a = e.contentWindow.document.querySelector("#screenshot-tip");
-              if (t)
-                return (
-                  (t.style.opacity = "0"),
-                  (a.style.opacity = "0"),
-                  void setTimeout(() => {
-                    t.remove(), a.remove();
-                  }, 250)
-                );
-            });
-      });
-  const r = document.querySelector('button[name="player-reload"]');
-  r &&
-    r.addEventListener("click", () => {
-      document.querySelector("#main-embed").src += "";
-    });
-  let n = !1;
-  const o = document.querySelector('button[name="player-external"]');
-  o &&
-    o.addEventListener("click", () => {
-      (o.disabled = !0),
-        (n = !n),
-        document.querySelector("#main-embed").contentWindow.postMessage(
-          {
-            action: "external",
-            value: n,
-          },
-          "*"
-        ),
-        setTimeout(() => {
-          o.disabled = !1;
-        }, 3e3);
-    });
-  let s = document.querySelector("iframe#main-embed"),
-    i = document.querySelector('a[name="next-episode"]');
-  document.querySelector('input[name="auto-play"]');
-  if (i.href) {
-    const c = setInterval(() => {
-      let e = s.contentWindow.document.querySelector("video");
-      e &&
-        (clearInterval(c),
-        e.addEventListener("ended", () => {
-          window.location = i.href;
-        }));
-    }, 1e3);
-  }
-}
+// if ("watch" === currentPage) {
+//   const e = window.location.pathname.split("/watch")[1],
+//     t = document.querySelector("iframe#main-embed"),
+//     a = setInterval(() => {
+//       let r = t.contentWindow.document.querySelector("video");
+//       if (r) {
+//         clearInterval(a);
+//         const t = (t, a) => {
+//           localStorage.setItem(
+//             e,
+//             JSON.stringify({
+//               time: Math.round(t),
+//               duration: Math.round(a),
+//             })
+//           );
+//         };
+//         if (localStorage.getItem(e)) {
+//           let t = JSON.parse(localStorage.getItem(e)).time;
+//           r.currentTime = t;
+//         }
+//         r.addEventListener("timeupdate", () => {
+//           t(r.currentTime, r.duration);
+//         });
+//       }
+//       window.addEventListener("beforeunload", () => {});
+//     }, 1e3);
+//   document
+//     .querySelector("button[name='player-lights']")
+//     .addEventListener("click", () => {
+//       document
+//         .querySelector("body")
+//         .insertAdjacentHTML("beforeend", '<div class="player-light"></div>');
+//       let e = document.querySelector(".player--container"),
+//         t = document.querySelector(".player-light");
+//       (e.style.zIndex = 2147483647),
+//         e.scrollIntoView({
+//           behavior: "smooth",
+//           block: "center",
+//         }),
+//         t.addEventListener("click", () => {
+//           t.classList.add("fade-out");
+//           const a = setTimeout(() => {
+//             (e.style.cssText = ""), t.remove(), clearTimeout(a);
+//           }, 450);
+//         });
+//     }),
+//     document
+//       .querySelector('button[name="player-size"]')
+//       .addEventListener("click", () => {
+//         let e = document.querySelector("#main-embed");
+//         (e.style.cssText =
+//           "min-height: 0px; display: block; position: fixed; top: 0px; left: 0px; height: 100%; width: 100%; z-index: 99999999999999;"),
+//           (document.body.style.cssText = "overflow: hidden");
+//         let t = e.contentWindow.document.createElement("div");
+//         (t.style.cssText =
+//           "cursor: pointer; position: fixed; top: 0; left: 0; right: 0; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.75) 100%); z-index: 99999999999999; text-align: center; padding: 10px; display: none;"),
+//           (t.innerText = "Exit Theatre Mode"),
+//           t.addEventListener("click", () => {
+//             (e.style.cssText = ""),
+//               (document.body.style.cssText = ""),
+//               t.remove();
+//           }),
+//           e.addEventListener("mouseover", () => {
+//             t.style.display = "block";
+//           }),
+//           e.addEventListener("mouseout", () => {
+//             t.style.display = "none";
+//           }),
+//           e.contentWindow.document.body.appendChild(t);
+//       }),
+//     document
+//       .querySelector('button[name="player-screenshot"]')
+//       .addEventListener("click", () => {
+//         let e = document.querySelector("#main-embed"),
+//           t = e.contentWindow.document.querySelector("#plyr");
+//         if (!t)
+//           return toastr.warning(
+//             "Video is not loaded yet or the loaded player is external.",
+//             "Screenshot"
+//           );
+//         let a = e.contentWindow.document.querySelector("canvas"),
+//           r = e.contentWindow.document.querySelector("#screenshot-tip");
+//         if (a)
+//           return (
+//             (a.style.opacity = "0"),
+//             (r.style.opacity = "0"),
+//             void setTimeout(() => {
+//               a.remove(), r.remove();
+//             }, 250)
+//           );
+//         let n = e.contentWindow.document.createElement("canvas"),
+//           o = e.contentWindow.document.createElement("div");
+//         (n.width = t.videoWidth),
+//           (n.height = t.videoHeight),
+//           (n.style.cssText =
+//             "position: fixed; width: 100%; box-shadow: 0px 2px 5px 2px #131313c7; bottom: 0; right: 0; transition: all 350ms ease;"),
+//           (o.style.cssText =
+//             "opacity: 0; position: fixed; width: 25%; bottom: 10px; right: 10px; transition: all 350ms ease 0s; background-color: rgba(0, 0, 0, 0.75); text-align: center; font-size: 12px; padding: 5px; pointer-events: none; font-weight: bold;"),
+//           (o.innerText = "Right click to save or copy screenshot."),
+//           o.setAttribute("id", "screenshot-tip"),
+//           n.getContext("2d").drawImage(t, 0, 0, n.width, n.height),
+//           e.contentWindow.document.body.appendChild(n),
+//           e.contentWindow.document.body.appendChild(o),
+//           setTimeout(() => {
+//             (n.style.width = "25%"),
+//               (n.style.bottom = "10px"),
+//               (n.style.right = "10px");
+//           }, 50),
+//           setTimeout(() => {
+//             o.style.opacity = "1";
+//           }, 600),
+//           e.contentWindow.document
+//             .querySelector(".plyr")
+//             .addEventListener("click", () => {
+//               let t = e.contentWindow.document.querySelector("canvas"),
+//                 a = e.contentWindow.document.querySelector("#screenshot-tip");
+//               if (t)
+//                 return (
+//                   (t.style.opacity = "0"),
+//                   (a.style.opacity = "0"),
+//                   void setTimeout(() => {
+//                     t.remove(), a.remove();
+//                   }, 250)
+//                 );
+//             });
+//       });
+//   const r = document.querySelector('button[name="player-reload"]');
+//   r &&
+//     r.addEventListener("click", () => {
+//       document.querySelector("#main-embed").src += "";
+//     });
+//   let n = !1;
+//   const o = document.querySelector('button[name="player-external"]');
+//   o &&
+//     o.addEventListener("click", () => {
+//       (o.disabled = !0),
+//         (n = !n),
+//         document.querySelector("#main-embed").contentWindow.postMessage(
+//           {
+//             action: "external",
+//             value: n,
+//           },
+//           "*"
+//         ),
+//         setTimeout(() => {
+//           o.disabled = !1;
+//         }, 3e3);
+//     });
+//   let s = document.querySelector("iframe#main-embed"),
+//     i = document.querySelector('a[name="next-episode"]');
+//   document.querySelector('input[name="auto-play"]');
+//   if (i.href) {
+//     const c = setInterval(() => {
+//       let e = s.contentWindow.document.querySelector("video");
+//       e &&
+//         (clearInterval(c),
+//         e.addEventListener("ended", () => {
+//           window.location = i.href;
+//         }));
+//     }, 1e3);
+//   }
+// }
 if ("discover" === currentPage) {
   let l = new URL(window.location),
     d = document.querySelector("#discover-search"),
