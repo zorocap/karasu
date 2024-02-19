@@ -1620,3 +1620,21 @@ $.ajax({
   },
 }),
   startClock();
+
+// Disabling developer mode
+var disabledKeys = ["F5", "F11", "F12"]
+var disabledModifierKeys = ["I", "J"]
+document.addEventListener("keydown", (event) => {
+    if (disabledKeys.includes(event.key)
+    || (event.ctrlKey && disabledModifierKeys.includes(event.key))) {
+        event.preventDefault();
+        event.stopPropagation();
+    }
+});
+
+window.oncontextmenu = function(event) {
+  // block right-click / context-menu
+  event.preventDefault();
+  event.stopPropagation();
+  return false;
+};
