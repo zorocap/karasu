@@ -888,7 +888,7 @@ a {
 .outter--container {
     position: relative;
     min-height: calc(100vh - 145px);
-    margin-left: 72px;
+    /* margin-left: 72px; */
     margin-bottom: 72px
 }
 
