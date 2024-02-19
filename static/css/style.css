@@ -885,10 +885,10 @@ a {
     background: 0 0
 }
 
-.outter--container {
+.outter--container:not(.streaming) {
     position: relative;
     min-height: calc(100vh - 145px);
-    /* margin-left: 72px; */
+    margin-left: 72px;
     margin-bottom: 72px
 }
 
