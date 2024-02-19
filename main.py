@@ -108,12 +108,6 @@ async def manifest(request:Request):
 async def service_worker(request:Request):
     return FileResponse("static/sw.js", media_type="application/javascript")
 
-async def index(request:Request):
-    student_id = request.path_params.get("student_id")
-
-    student_name = request.query_params.get("student_name") or "World"
-    return PlainTextResponse(content=f"Hello {student_name}")
-
 async def json_endpoint(request:Request):
     return JSONResponse(content={"message": "Json hello"})
 
@@ -317,7 +311,6 @@ routes = [
     Route("/logout", endpoint=logout, methods=["GET"]),
     Route("/manifest.json", manifest),
     Route("/sw.js", service_worker),
-    Route("/{student_id:int}", endpoint=index),
     Route("/json", endpoint=json_endpoint),
     Route("/trending/", endpoint=trending_page),
     Route("/anime/{anime_id:int}/{anime_name:str}/", endpoint=anime_detail_page),
