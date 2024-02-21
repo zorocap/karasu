@@ -325,7 +325,7 @@ routes = [
 ]
 
 app = Starlette(
-    debug=True,
+    debug=False,
     routes=routes
 )
 
