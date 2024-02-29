@@ -1,111 +1,48 @@
 {% extends "base.html" %}
-{% block external_link %}
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-{% endblock external_link %}
-{% block content %}
-    <!-- Include Hls.js library -->
-    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-    
-    <!-- Add a video element -->
+{% block content %}    
     <main class="outter--container streaming is--watching">
-        <div class="video-container">
-            <div class="video-wrapper">
-                <video id="main-video" poster="{{ url_for('static', path='/img/loader.gif') }}"></video>
-            </div>
-            {{player_controls | safe}}
-        </div>
-        
-        {{stream_content | safe}}
-        
+        <script src="/static/js/test.js"></script>
+        {{player_section | safe}}
+        {{inner_container | safe}}
     </main>
-    <script>
+    <!-- <script>
 
-        async function logMovies() {
-            try {
-                var video_link = 'Not found';
-                async function getVideoLink() {
-                    const response = await fetch("/e/{{video_src | safe}}");
-                    const result = await response.json();
-                    video_link = result['message'];
-                    return video_link;
-                }
-                var video_link_func = await getVideoLink();
-                if(!video_link_func) {
-                    video_link_func = await getVideoLink();
-                    console.log("Second try " + video_link)
-                } else {
-                    console.log("Success:", video_link);
-                }
-                // document.querySelector("#end").innerHTML += "<h2>" + video_link + "</h2>";
-
-                var video_element = document.getElementById('main-video');
-                video_element.removeAttribute('poster')
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     const checkForM3U8 = () => {
+        //         console.log("running checkForM3U8")
+        //         const resourceEntries = window.performance.getEntriesByType('resource');
+        //         console.log(window.performance.getEntriesByType('resource'));
                 
-                const defaultOptions = {};
-                if(Hls.isSupported()){
-                    const hls = new Hls();
-                    hls.loadSource(video_link)
-                    hls.on(Hls.Events.MANIFEST_PARSED, function(event, data){
-                        const availableQualities = hls.levels.map((l) => l.height)
-                        defaultOptions.controls = [
-                            'play-large', // The large play button in the center
-                            // 'restart', // Restart playback
-                            'rewind', // Rewind by the seek time (default 10 seconds)
-                            'play', // Play/pause playback
-                            'fast-forward', // Fast forward by the seek time (default 10 seconds)
-                            'progress', // The progress bar and scrubber for playback and buffering
-                            'current-time', // The current time of playback
-                            'duration', // The full duration of the media
-                            'mute', // Toggle mute
-                            'volume', // Volume control
-                            'settings', // Settings menu
-                            'pip', // Picture-in-picture (currently Safari only)
-                            'airplay', // Airplay (currently Safari only)
-                            'fullscreen', // Toggle fullscreen
-                        ];
-                        defaultOptions.quality = {
-                            default: availableQualities[0],
-                            options: availableQualities,
-                            forced: true,
-                            onChange: (e) => updateQuality(e)
-                        }
-                        new Plyr(video_element, defaultOptions);
-                    });
-                    hls.attachMedia(video_element);
-                    window.hls = hls;
+        //         // Filter entries ending with ".m3u8"
+        //         const m3u8Entries = resourceEntries.filter(entry => entry.name.endsWith('.m3u8'));
 
-                    // Add custom keyboard controls
-                    document.addEventListener('keydown', function (event) {
-                    switch (event.key) {
-                        case ' ':
-                        if (hls.playing) {
-                            hls.pause();
-                        } else {
-                            hls.play();
-                        }
-                        break;
-                        case 'ArrowLeft':
-                        hls.rewind();
-                        break;
-                        case 'ArrowRight':
-                        hls.forward();
-                        break;
-                        // Add more controls as needed
-                    }
-                    });
-                }
-                function updateQuality(newQuality){
-                    window.hls.levels.forEach((level, levelIndex) => {
-                        if(level.height === newQuality) {
-                            window.hls.currentLevel = levelIndex
-                        }
-                    })
-                }
-            } catch (error) {
-                document.querySelector("#end").innerHTML += "<h2>Error " + error + "</h2>";
-            }            
+        //         if (m3u8Entries.length > 0) {
+        //             // Found entries with ".m3u8", do something with them
+        //             console.log('Found .m3u8 links:', m3u8Entries.map(entry => entry.name));
+        //         } else {
+        //             // Continue checking after a delay (adjust the delay as needed)
+        //             setTimeout(checkForM3U8, 1000); // Check every 1 second
+        //         }
+        //     };
+
+        //     // Start the initial check
+        //     // checkForM3U8();
+        // });
+
+        // Get the current domain
+        const currentDomain = window.location.hostname;
+
+        // Function to check and prevent redirection to a different domain
+        function checkRedirection() {
+            if (window.location.hostname !== currentDomain) {
+                // Redirect to a safe page within the current domain
+                window.location.href = '/';
+            }
         }
-        logMovies();
-    </script>
-{% endblock  %}
+
+        // Call the checkRedirection function on page load
+        checkRedirection();
+
+
+    </script> -->
+{% endblock content %}
