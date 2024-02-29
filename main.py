@@ -14,7 +14,7 @@ from starlette.middleware.cors import CORSMiddleware
 import json
 import uvicorn
 # for getting video link
-from playwright.async_api import async_playwright
+# from playwright.async_api import async_playwright
 
 # For handling Login functionality
 from starlette.middleware.sessions import SessionMiddleware
@@ -164,40 +164,40 @@ async def anime_stream(request:Request):
     context = {"request":request, "player_section":player_section, "inner_container":inner_container}
     return templates.TemplateResponse("stream.html", context)
 
-async def video_scratcher(request:Request):
-    video_id = request.path_params.get("video_id")
+# async def video_scratcher(request:Request):
+#     video_id = request.path_params.get("video_id")
 
-    URL = f"{website}/e/{video_id}/"
-    video_src = ''
-    async with async_playwright() as p:
-        browser = await p.chromium.launch()
-        context = await browser.new_context()
-        page = await context.new_page()
+#     URL = f"{website}/e/{video_id}/"
+#     video_src = ''
+#     async with async_playwright() as p:
+#         browser = await p.chromium.launch()
+#         context = await browser.new_context()
+#         page = await context.new_page()
 
-        try:
-            await page.goto(URL)
+#         try:
+#             await page.goto(URL)
 
-            # Wait for the video to load (adjust as needed)
-            await page.wait_for_timeout(500)
+#             # Wait for the video to load (adjust as needed)
+#             await page.wait_for_timeout(500)
 
-            # Retrieve the .m3u8 link from network requests
-            m3u8_link = await page.evaluate('''() => {
-                const performanceEntries = window.performance.getEntriesByType('resource');
-                const m3u8Requests = performanceEntries.filter(entry => entry.name.endsWith('.m3u8'));
-                return m3u8Requests.length > 0 ? m3u8Requests[0].name : null;
-            }''')
+#             # Retrieve the .m3u8 link from network requests
+#             m3u8_link = await page.evaluate('''() => {
+#                 const performanceEntries = window.performance.getEntriesByType('resource');
+#                 const m3u8Requests = performanceEntries.filter(entry => entry.name.endsWith('.m3u8'));
+#                 return m3u8Requests.length > 0 ? m3u8Requests[0].name : null;
+#             }''')
 
-            if m3u8_link:
-                video_src = m3u8_link
-                # video_src = False
-            else:
-                video_src = False
+#             if m3u8_link:
+#                 video_src = m3u8_link
+#                 # video_src = False
+#             else:
+#                 video_src = False
 
-        finally:
-            await browser.close()
-    # context = {"request":request, "video_src": video_src}
-    # return PlainTextResponse(content=video_src)
-    return JSONResponse(content={"message": video_src})
+#         finally:
+#             await browser.close()
+#     # context = {"request":request, "video_src": video_src}
+#     # return PlainTextResponse(content=video_src)
+#     return JSONResponse(content={"message": video_src})
 
 async def simple_plawright_run():
     async with async_playwright() as p:
@@ -320,7 +320,7 @@ routes = [
     Route("/latest/", endpoint=latest_anime),
     Route("/api/search/", endpoint=api_search),
     Route("/schedule.json", endpoint=schedule_json),
-    Route("/e/{video_id:str}/", endpoint=video_scratcher)
+    # Route("/e/{video_id:str}/", endpoint=video_scratcher)
 ]
 
 app = Starlette(
