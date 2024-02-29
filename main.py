@@ -199,22 +199,22 @@ async def anime_stream(request:Request):
 #     # return PlainTextResponse(content=video_src)
 #     return JSONResponse(content={"message": video_src})
 
-async def simple_plawright_run():
-    async with async_playwright() as p:
-        # Launch a browser (you can specify 'firefox' or 'webkit' instead of 'chromium' if desired)
-        browser = await p.chromium.launch()
+# async def simple_plawright_run():
+#     async with async_playwright() as p:
+#         # Launch a browser (you can specify 'firefox' or 'webkit' instead of 'chromium' if desired)
+#         browser = await p.chromium.launch()
 
-        # Create a new page
-        page = await browser.new_page()
+#         # Create a new page
+#         page = await browser.new_page()
 
-        # Navigate to google.com
-        await page.goto("https://www.google.com")
+#         # Navigate to google.com
+#         await page.goto("https://www.google.com")
 
-        # Wait for a moment (you can add more logic here if needed)
-        await page.wait_for_timeout(300)
+#         # Wait for a moment (you can add more logic here if needed)
+#         await page.wait_for_timeout(300)
 
-        # Close the browser
-        await browser.close()
+#         # Close the browser
+#         await browser.close()
 
 async def anime_discover(request:Request):
     # URL = f"{website}/discover/"
@@ -345,7 +345,7 @@ app.add_middleware(
 async def on_startup():
     print("Starlette application started successfully.")
     # Run Playwright actions on startup
-    await simple_plawright_run()
+    # await simple_plawright_run()
 
 if __name__ == "__main__":
     uvicorn.run(app, host='0.0.0.0', port=8000)
